@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/mapa4.jpg);
+    background-image: url(../img/fondo.webp);
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,19 +20,10 @@ marquee {
 h1 {
     font-size: 36px;
     margin-top: 20px;
-    color:aquamarine;
-    background-color: slategray;
-}
-
-strong{
-    background-color:slategrey;
-    font-size: 1.25rem;
-    color:aquamarine;
 }
 
 #temporizador {
     font-size: 18px;
-    color: blue;
     margin-top: 10px;
 }
 
@@ -53,7 +44,7 @@ input {
 }
 
 button {
-    background-color: #e62117;
+    background-color: #ff4500;
     color: #fff;
     padding: 10px 20px;
     font-size: 18px;
@@ -70,7 +61,6 @@ button:hover {
 .swal2-popup {
     font-size: 18px;
 }
-
 #contenedor{
     padding: 15%;
     border: 5px solid #ffffff;
@@ -85,12 +75,33 @@ button:hover {
     border: 5px solid #ffffff;
     border-radius: 10px;
 }
+strong{
+    color: black;
+    font-size: 1rem;
+}
+h1{
+    color: black;
+}
+div{
+    color: #ff0000;
+}
 @media only screen and (max-width: 700px){
     body {
-        background-image: url(../img/mapa4.jpg);
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+        background-image: url(../img/fondo.webp);
+        color: #ffffff;
+        font-family: 'Press Start 2P', cursive;
+        height: 100vh;
+        margin: 0%;
+    }
+    .portatil{
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media only screen and (1025px < width < 1400px){
+    body {
+        background-image: url(../img/fondo.webp);
         font-family: 'Arial', sans-serif;
         margin: 0;
         padding: 0;
@@ -102,25 +113,6 @@ button:hover {
     }
     #contenedor{
         padding: 10%;
-        border: 5px solid #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-        text-align: center;
-        margin: 2%;
-    }
-}
-@media only screen and (1025px < width < 1400px){
-    body {
-        background-image: url(../img/mapa4.jpg);
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        font-family: 'Press Start 2P', cursive;
-        height: 100vh;
-        margin: 0;
-    }
-    #contenedor{
-        padding: 8%;
         border: 5px solid #ffffff;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);

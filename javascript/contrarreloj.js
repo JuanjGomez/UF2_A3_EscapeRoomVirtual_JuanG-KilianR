@@ -42,7 +42,7 @@ function acabaTiempo() {
     }).then((result) => {
       if (result.dismiss === Swal.DismissReason.timer) {
         console.log("I was closed by the timer");
-        window.location.href = '../escape/mapas.php';
+        window.location.href = '../mapas.php';
       }
     });
 }

@@ -36,4 +36,11 @@ session_start();
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php
-echo '...';
+if(isset($_GET['intruso'])){
+    echo "<script>
+            Swal.fire({
+            icon: 'warning',
+            title: 'INTRUSO',
+            text: 'Tienes que registrarte antes de estar aqui!!'});
+        </script>"; 
+}

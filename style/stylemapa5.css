@@ -10,10 +10,11 @@ body {
 }
 
 h1, strong {
-    color: #ff0000;
+    color: black;
 }
 
 #temporizador {
+    color: red;
     font-size: 16px;
     margin-top: 10px;
 }

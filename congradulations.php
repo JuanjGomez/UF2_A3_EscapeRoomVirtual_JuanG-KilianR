@@ -22,23 +22,27 @@ if(!isset($_SESSION['superar4'])){
 </header>
 <body>
     <section>
-        <h1 class="right" id="title">Felicidades lo has logrado <?php echo $_SESSION['nombre']?>..!!</h1>
-        <strong id ="text" class="right">Si que eres un verdadero fan de Mario Bros.</strong>
-        </br>
-        <h2 class="creditos left">Creadores:</h2>
-        <h3 class="creditos left">Juan Gómez y Kilian Ruiz</h3>
-        </br>
-        <h2 id="title" class="right">¿Te ha gustado?</h2>
-        <strong id ="text" class="right">Puede ver otro proximamente...</strong>
-        <div id="cont"></div>
-        </br>
-        <h3 class="creditos left">¿Deseas jugar de nuevo?</h3>
-        <div class="creditos left">
-            <form action="./conexiones/destruccion.php" method="post" id="sessiones">
-                <strong for="restart">Deseas volver hacer el:</strong>
-                <button type="submit">Reto</button>
-            </form>
-        </div>
+        <marquee direction="up">
+            <h1 class="right" id="title">Felicidades <?php echo $_SESSION['nombre']?> has superado el juego !!</h1>
+            <h3>Has demostrado ser un fan de Mario Bros!</h3>
+            </br>
+            <hr>
+            <h2>Creadores:</h2>
+            <hr>
+            <br>
+            <h3>Kilian Ruiz</h3>
+            <h3>&</h3>
+            <h3>Juan Gómez</h3>
+            <br>
+            <hr>
+            <h3>¿Quieres jugar otra vez?</h3>
+            <hr>
+            <div>
+                <form action="./conexiones/destruccion.php" method="post" id="sessiones">
+                    <!-- <strong for="restart">Deseas volver hacer el:</strong> -->
+                    <button type="submit">REPETIR</button>
+                </form>
+            </div>
     </section>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

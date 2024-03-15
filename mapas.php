@@ -13,7 +13,7 @@ if(!isset($_SESSION['nombre'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapas</title>
-    <link rel="icon" href="./icons./mapa.ico">
+    <link rel="icon" href="./icons/mapa.ico">
     <link rel="stylesheet" type="text/css" href="./style/pruebamapas.css">
 </head>
 <body>

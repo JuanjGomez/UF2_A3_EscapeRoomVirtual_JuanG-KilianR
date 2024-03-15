@@ -93,8 +93,8 @@ header {
     }
     .col3 {
         float: left;
-        height: 15vh;
-        width: 25vh;
+        height: 18vh;
+        width: 34vh;
         border: solid black;
         background-color: antiquewhite;
         border-radius: 2px;
@@ -103,14 +103,14 @@ header {
     }
     .col2 {
         float: left;
-        width: 25vh;
-        height: 15vh;
+        width: 34vh;
+        height: 18vh;
         border: solid black;
         background-color: antiquewhite;
         border-radius: 2px;
         margin-left: 2rem;
         margin-right: 2em;
-        margin-top: 2.5em;
+        margin-top: 2em;
     }
     
     .padding1 {
@@ -142,9 +142,9 @@ header {
     /* Luigui */
     #superpuesta2 {
         position: absolute;
-        width: 9%;
-        left: 34%;
-        top: 16%;
+        width: 10%;
+        left: 40%;
+        top: 15%;
     }
     /* Yoshi y Mario */
     #superpuesta3 {
@@ -158,15 +158,15 @@ header {
     #superpuesta4 {
         position: absolute;
         width: 7.5%;
-        right: 22%;
+        right: 8%;
         top: 14%;
     }
     /* Dinosaurio amarillo */
     #superpuesta5 {
         position: absolute;
-        width: 11%;
-        left: 70%;
-        bottom: 36%;
+        width: 12%;
+        left: 83%;
+        bottom: 34%;
     }
 }
 @media only screen and (1025px < width < 1400px){
@@ -220,7 +220,10 @@ header {
         padding-top: 0.5em;
         padding-left: 20rem;
     }
-    
+}
+    .width{
+        width: 98%;
+    }
     #superpuesta {
         position: absolute;
         width: 7%;
