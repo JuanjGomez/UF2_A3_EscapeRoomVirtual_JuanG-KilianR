@@ -1,0 +1,116 @@
+.resaltado {
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+body {
+    background-image: url(../img/mapa33.jpg);
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, strong {
+    color: greenyellow;
+}
+
+#temporizador {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.resaltado {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #228b22;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8fbc8f;
+}
+
+marquee {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffde00;
+    color: #000000;
+}
+
+#cuentaregresiva {
+    color: #ff0000;
+    padding: 0.5%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+#contenedor{
+    padding: 10%;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 2%;
+}
+
+.portatil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 700px){
+    body {
+        background-image: url(../img/mapa33.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Press Start 2P', cursive;
+        height: 100vh;
+        margin: 0;
+    }
+    h1, strong {
+        color: greenyellow;
+    }
+    .portatil{
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #contenedor{
+        padding: 5%;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin: 2%;
+    }
+}
+@media only screen and (1025px < width < 1400px){
+    body {
+        background-image: url(../img/mapa33.jpg);
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        font-family: 'Press Start 2P', cursive;
+        height: 100vh;
+        margin: 0;
+    }
+    h1, strong {
+        color: greenyellow;
+    }
+    #contenedor{
+        padding: 5%;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin: 2%;
+    }
+}

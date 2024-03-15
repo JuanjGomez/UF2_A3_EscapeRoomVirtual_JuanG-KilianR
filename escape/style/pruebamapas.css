@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../img/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.col3 {
+    float: left;
+    width: 60vh;
+    border: solid black;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    margin-left: 3em;
+    margin-top: 4rem;
+}
+
+.col2 {
+    float: left;
+    width: 60vh;
+    border: solid black;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    margin-left: 14em;
+    margin-right: 0em;
+    margin-top: 3em;
+}
+
+.padding1 {
+    padding-left: 6em;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.borde {
+    margin-right: 2%;
+}
+
+.titulo {
+    width: 50%;
+    padding-top: 4em;
+    padding-left: 33rem;
+}
+
+#superpuesta {
+    position: absolute;
+    width: 7%;
+    left: 2%;
+}
+
+#superpuesta2 {
+    position: absolute;
+    width: 7%;
+    left: 33.5%;
+    top: 25%;
+}
+
+#superpuesta3 {
+    position: absolute;
+    width: 9%;
+    right: 38%;
+    bottom: 17%;
+}
+
+#superpuesta4 {
+    position: absolute;
+    width: 8%;
+    right: 6%;
+    top: 21%;
+}
+
+#superpuesta5 {
+    position: absolute;
+    width: 10%;
+    left: 34%;
+    bottom: 5%;
+}
+@media only screen and (max-width: 700px){
+    * {
+        box-sizing: border-box;
+    }
+    header {
+        height: 100vh;
+        background-image: url("../img/fondo.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .col3 {
+        float: left;
+        height: 15vh;
+        width: 25vh;
+        border: solid black;
+        background-color: antiquewhite;
+        border-radius: 2px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .col2 {
+        float: left;
+        width: 25vh;
+        height: 15vh;
+        border: solid black;
+        background-color: antiquewhite;
+        border-radius: 2px;
+        margin-left: 2rem;
+        margin-right: 2em;
+        margin-top: 2.5em;
+    }
+    
+    .padding1 {
+        padding-left: 0.4em;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    
+    .borde {
+        margin-right: 1%;
+    }
+    .titulo {
+        width: 100%;
+        padding-top: 0.7em;
+        padding-left: 2.5rem;
+    }
+    #title{
+        width: 95%;
+    }
+    .width{
+        width: 98%;
+    }
+    #superpuesta {
+        position: absolute;
+        width: 10%;
+        padding-top: 6%;
+        left: 4%;
+    }
+    /* Luigui */
+    #superpuesta2 {
+        position: absolute;
+        width: 9%;
+        left: 34%;
+        top: 16%;
+    }
+    /* Yoshi y Mario */
+    #superpuesta3 {
+        position: absolute;
+        width: 11%;
+        right: 86%;
+        padding-bottom: 7%;
+        bottom: 6%;
+    }
+    /* Tortuga voladora */
+    #superpuesta4 {
+        position: absolute;
+        width: 7.5%;
+        right: 22%;
+        top: 14%;
+    }
+    /* Dinosaurio amarillo */
+    #superpuesta5 {
+        position: absolute;
+        width: 11%;
+        left: 70%;
+        bottom: 36%;
+    }
+}
+@media only screen and (1025px < width < 1400px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    header {
+        height: 100vh;
+        background-image: url("../img/fondo.webp");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .col3 {
+        float: left;
+        height: 30vh;
+        width: 50vh;
+        border: solid black;
+        background-color: antiquewhite;
+        border-radius: 2px;
+        margin-left: 5.5rem;
+        margin-top: 2rem;
+    }
+    
+    .col2 {
+        float: left;
+        width: 50vh;
+        height: 30vh;
+        border: solid black;
+        background-color: antiquewhite;
+        border-radius: 2px;
+        margin-left: 13rem;
+        margin-right: 0em;
+        margin-top: 2.5em;
+    }
+    
+    .padding1 {
+        padding-left: 0.4em;
+        padding-top: 3.5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .borde {
+        margin-right: 2%;
+    }
+    
+    .titulo {
+        width: 40%;
+        padding-top: 0.5em;
+        padding-left: 20rem;
+    }
+    
+    #superpuesta {
+        position: absolute;
+        width: 7%;
+        left: 4%;
+    }
+    
+    #superpuesta2 {
+        position: absolute;
+        width: 6%;
+        left: 28%;
+        top: 16%;
+    }
+    
+    #superpuesta3 {
+        position: absolute;
+        width: 8%;
+        right: 40%;
+        bottom: 6%;
+    }
+    
+    #superpuesta4 {
+        position: absolute;
+        width: 7%;
+        right: 6%;
+        top: 4%;
+    }
+    
+    #superpuesta5 {
+        position: absolute;
+        width: 8%;
+        left: 36%;
+        bottom: 5%;
+    }
+}
